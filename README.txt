@@ -6,3 +6,5 @@ Team Members:
   - Owen Anderson
   - Mariem Taleb
   - Colin Peters
+  - Sagal Maxamud 
+
