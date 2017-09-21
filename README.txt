@@ -1,10 +1,13 @@
-seg2900Statik
+Statik 
+=========
 
-The project repo for the statik group for the seg2900 course
+Product description
+
+Product Name: Retana Replay
 
 Team Members:
   - Georges Atallah
-  - Owen Anderson
+  - Owen Anderson: 300011168
   - Mariem Taleb
   - Colin Peters
   - Sagal Maxamud 
