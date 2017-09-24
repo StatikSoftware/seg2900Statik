@@ -10,5 +10,5 @@ Team Members:
   - Owen Anderson: 300011168
   - Mariem Taleb: 300000092
   - Colin Peters
-  - Sagal Maxamud 
+  - Sagal Maxamud: 300017723 
 
