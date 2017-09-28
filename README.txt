@@ -5,7 +5,7 @@ Team Members:
   - Georges Atallah
   - Owen Anderson: 300011168
   - Mariem Taleb: 300000092
-  - Colin Peters
+  - Colin Peters: 300017735
   - Sagal Maxamud: 300017723 
 
 
