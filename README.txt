@@ -2,7 +2,7 @@ Statik
 ============
 
 Team Members:
-  - Georges Atallah
+  - Georges Atallah: 0300019418
   - Owen Anderson: 300011168
   - Mariem Taleb: 300000092
   - Colin Peters: 300017735
