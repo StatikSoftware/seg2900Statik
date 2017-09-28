@@ -1,9 +1,5 @@
 Statik 
-=========
-
-Product description
-
-Product Name: Retana Replay
+============
 
 Team Members:
   - Georges Atallah
