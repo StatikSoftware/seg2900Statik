@@ -2,21 +2,22 @@ Statik
 ============
 
 Team Members:
-  - Georges Atallah
+  - Georges Atallah: 0300019418
   - Owen Anderson: 300011168
   - Mariem Taleb: 300000092
   - Colin Peters: 300017735
   - Sagal Maxamud: 300017723 
 
 
-Product idea: AR dressing room
+Product idea: Fun cooking app
 
 Product description:
+	The goal of this app if to make cooking easy and fun for younger audiences. This is done through step by step tutorials and gameification. The app will include rewards, satisfying audio and visual aspects, and social media features to keep users exited about cooking.
 
-- Uses AR technology  [example pokemon go, snapchat filters...] to fit clothes on a person 
-- The application would estimate the size of clothes the user will buy from a photo analysis software 
-	- Or the relatives of user could provide dimensions if the clothes are meant to be a gift 
-- Allows customers to share video, pictures and location form the application 
-- Coul work for shoes and hats as well
+Other possible features include:
+- An ingredients checklist that includes a "treasure hunt"-like feature for ingredients that the user doesn't have.
+- "streaks" for users that use the app often when planning their meals
+- a social media aspect in which you share your cooking experiences with friends, or challenge them
+- coupons or ingredients as a reward, in addition to a points based system for completing a recipe
 
-"Why go to the store when you can shop from home!"
+"An app that makes cooking fun for millenials"
