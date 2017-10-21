@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="196.25"
+   height="195"
+   viewBox="0 0 196.25 195"
+   sodipodi:docname="insta.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="1.711561"
+     inkscape:cx="90.635597"
+     inkscape:cy="34.503358"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="display:inline">
+    <path
+       style="fill:#ffffff;fill-opacity:1"
+       d="M 172.42773 21.306641 C 110.47362 21.306641 69.019969 21.332031 21.304688 21.332031 C 21.304688 53.260756 21.007812 142.1931 21.007812 172.17773 C 58.487538 172.17773 171.875 171.875 171.875 171.875 C 172.16235 105.33361 172.32973 75.774767 172.42773 21.306641 z M 125.33203 38.498047 C 136.49161 38.498047 143.83292 38.669922 155 38.669922 L 155 53.710938 L 155 68.75 L 143.99609 68.75 C 140.57511 68.75 138.28236 68.727996 136.52344 68.589844 L 125.27734 56.671875 C 125.21612 55.025479 125.23804 52.923021 125.25781 49.884766 L 125.33203 38.498047 z M 97.292969 70.027344 A 27.266951 26.9571 0 0 1 124.56055 96.984375 A 27.266951 26.9571 0 0 1 97.292969 123.94141 A 27.266951 26.9571 0 0 1 70.027344 96.984375 A 27.266951 26.9571 0 0 1 97.292969 70.027344 z M 38.75 87.5 L 45.761719 87.5 C 48.958388 87.5 50.72896 87.501813 53.867188 87.501953 A 44.515362 43.585804 0 0 0 52.46875 98.119141 A 44.515362 43.585804 0 0 0 96.984375 141.70508 A 44.515362 43.585804 0 0 0 141.49805 98.119141 A 44.515362 43.585804 0 0 0 140.11719 87.511719 L 141.875 87.511719 L 155 87.5 C 155 111.12731 154.99999 130.70773 155 153.75 L 38.75 153.75 L 38.75 120.625 L 38.75 87.5 z "
+       id="path4138" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline" />
+</svg>

@@ -1,102 +1,193 @@
 <!DOCTYPE html>
-
 <html lang="en">
-	<head>
-    	<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    	<title>Pricing</title>
-    	<link href = "pricing.css" rel = "stylesheet" type = "text/css">
-    	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
-	</head>
 
-	<body>
-    	<nav>
-        	<img src="http://via.placeholder.com/32x32" alt="logo" srcset="http://via.placeholder.com/32x32">
-        	<a href="index.html">Home</a>
-        	<a href="features.html">Features</a>
-        	<span>Pricing</span>
-        	<a href="team.html">Team</a>
-        	<a href="contact.html">Contact</a>
-    	</nav>
-    	<hr>
-    	
-    	<div id = "container1">
-			<div id = "p-container">
-            	<div id = "text-container">
-                	<p>Try SIMMER For <br> 30 Days.</p>
-            	</div>
-            	<div id = "download-container">
-                	<input type = 'button' value = "Start Free Trial" class="button1">
-            	</div>
-        	</div>
-    	</div>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="pricing.css">
+    <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
 
-    	<div class="container2" >
-        	<div id = "table">
-            	<div class = "pricing-container" id = "pricing1">
-                	<div class="header">
-                    	<h3>Basic</h3>
-                    	<p>Price</p>
-                	</div>
-                	<div class="row">
-                    	<ul>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                    	</ul>
-                    
-               		</div>
-                	<div class="container-button">
-                    	<input type = "button" value="SELECT" class="button" >
-                	</div>
-            	</div>
-            	<div class = "pricing-container" id = "pricing2">
-                	<div class="header">
-                    	<h3>Standard</h3>
-                    	<p>Price</p>
-                	</div>
-                	<div class="row">
-                    	<ul>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                    	</ul>
-                	</div>
-                	<div class="container-button">
-                    	<input type = "button" value="SELECT" class="button">
-                	</div>
-            	</div>
-            	<div class = "pricing-container" id = "pricing3">
-                	<div class="header">
-                    	<h3>Premium</h3>
-                    	<p>Price</p>
-                	</div>
-                	<div class="row">
-                    	<ul>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                        	<li>feature</li>
-                    	</ul>
-                	</div>
-                	<div class="container-button">
-                    	<input type = "button" value="SELECT" class="button">
-                	</div>
-            	</div>
-        	</div>
-    	</div>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-    	<hr>
-    	<footer>
-        	<p>Fun cooking app (Put actual name here)</p>
-        	<a href="contact.html">Get in touch</a>
-        	<p>75 Laurier Ave E</p>
-    	</footer>
-	</body>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <nav>
+            <div class="nav-wrapper">
+                <a id="LogoNav" href="index.html" class="left brand-logo valign-wrapper">
+                    Simmer
+                </a>
+                <ul id="nav-mobile" class="right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="features.html">Features</a>
+                    </li>
+                    <li>
+                        <a href="pricing.html">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="team.html">Team</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <main>
+        <div id="topcontainer" class="parallax-container">
+            <div class="parallax">
+                <img src="./images/pricing-background.jpg">
+            </div>
+        </div>
+
+        <div id="container1">
+            <div id="p-container">
+                <div id="text-container">
+                    <p>Try SIMMER For
+                        <br> 30 Days.</p>
+                </div>
+                <div id="download-container">
+                    <a class="waves-effect red accent-3 waves-light btn-large">Start Free Trial</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div id="table">
+                <div class="pricing-container" id="pricing1">
+                    <div class="header">
+                        <h3>Basic</h3>
+                        <p>Price</p>
+                    </div>
+                    <div class="row">
+                        <ul>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                            <li><i class="tiny material-icons red-text">close</i> feature</li>
+                            <li><i class="tiny material-icons red-text">close</i> feature</li>
+                            <li><i class="tiny material-icons red-text">close</i> feature</li>
+                        </ul>
+
+                    </div>
+                    <div class="container-button">
+                        <a class="waves-effect red lighten-1 waves-light btn">Select</a>
+                    </div>
+                </div>
+                <div class="pricing-container col s4" id="pricing2">
+                    <div class="header">
+                        <h3>Standard</h3>
+                        <p>Price</p>
+                    </div>
+                    <div class="row">
+                        <ul>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                            <li><i class="tiny material-icons red-text">close</i> feature</li>
+                            <li><i class="tiny material-icons red-text">close</i> feature</li>
+                        </ul>
+                    </div>
+                    <div class="container-button">
+                        <a class="waves-effect red lighten-1 waves-light btn">Select</a>
+                    </div>
+                </div>
+                <div class="pricing-container col s4" id="pricing3">
+                    <div class="header">
+                        <h3>Premium</h3>
+                        <p>Price</p>
+                    </div>
+                    <div class="row">
+                        <ul>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                            <li><i class="tiny material-icons green-text">check</i> feature</li>
+                        </ul>
+                    </div>
+                    <div class="container-button">
+                        <a class="waves-effect red lighten-1 waves-light btn">Select</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="./images/kitchen.jpg">
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <div class="row">
+                        <p class="white-text footer-title">Simmer, the app that makes cooking fun</p>
+                        <p class="white-text">75 Laurier Ave E, Ottawa, ON K1N 6N5</p>
+                        <p class="white-text">Phone: (613) 123-4567</p>
+                        <p class="white-text">Fax: (613) 765-4321</p>
+                    </div>
+                    <div class="row"></div>
+                    <div class="row">
+                        <div class="col s3">
+                            <img class="contact-button" src="./images/contact_icons/facebook.svg" alt="facebook">
+                        </div>
+                        <div class="col s3">
+                            <img class="contact-button" src="./images/contact_icons/twitter.svg" alt="facebook">
+                        </div>
+                        <div class="col s3">
+                            <img class="contact-button" src="./images/contact_icons/insta.svg" alt="facebook">
+                        </div>
+                        <div class="col s3">
+                            <img class="contact-button" src="./images/contact_icons/email.svg" alt="facebook">
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="features.html">Features</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="pricing.html">Pricing</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 Simmer
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            $('.parallax-container#topcontainer').css('height', (screen.height - 64) + 'px')
+            console.log(screen.height);
+            $('.parallax').parallax();
+        });
+    </script>
+</body>
+
 </html>
