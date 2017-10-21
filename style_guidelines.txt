@@ -1,0 +1,26 @@
+Colors:
+The 
+#FFAF87
+#FF8E72
+#ED6A5E
+#4CE0B3
+#377771
+
+https://fonts.google.com/specimen/Montserrat+Alternates
+
+Overall Look and Feel of Simmer:
+
+The overall look and feel of the Simmer website will be flat and mello and colorful. We want the website to be fun and upbeat but not too childish or flashy.
+
+Typography:
+The font we chose for the website is Montserrat Alternates from Google Fonts.
+
+Buttons:
+Buttons will be flat, but will stand out and will change colors when hovered over.
+
+Iconography:
+Icons on the website will be minimalist and indicate the purpose of buttons intuitively.
+
+Links:
+Links will be underlined in text. They will be Salmon color and Macaroni and Cheese color when hovered over.
+
