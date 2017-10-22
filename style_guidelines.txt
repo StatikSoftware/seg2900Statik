@@ -1,10 +1,10 @@
 Colors:
-The 
-#FFAF87
-#FF8E72
-#ED6A5E
-#4CE0B3
-#377771
+
+#FFAF87     : "Macaroni"
+#FF8E72     : Peachish
+#ED6A5E     : Pink but more redish
+#4CE0B3     : Bright neon blue green (more blue)
+#377771     : Dark blue green
 
 https://fonts.google.com/specimen/Montserrat+Alternates
 
