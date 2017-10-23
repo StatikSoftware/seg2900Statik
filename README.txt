@@ -12,7 +12,7 @@ Team Members:
 Product idea: Fun cooking app
 
 Product description:
-	The goal of this app if to make cooking easy and fun for younger audiences. This is done through step by step tutorials and gameification. The app will include rewards, satisfying audio and visual aspects, and social media features to keep users exited about cooking.
+	The goal of this app if to make cooking easy and fun for younger audiences. This is done through step by step tutorials and gamification. The app will include rewards, satisfying audio and visual aspects, and social media features to keep users exited about cooking.
 
 Other possible features include:
 - An ingredients checklist that includes a "treasure hunt"-like feature for ingredients that the user doesn't have.
@@ -20,4 +20,4 @@ Other possible features include:
 - a social media aspect in which you share your cooking experiences with friends, or challenge them
 - coupons or ingredients as a reward, in addition to a points based system for completing a recipe
 
-"An app that makes cooking fun for millenials"
+"An app that makes cooking fun for millennials"
