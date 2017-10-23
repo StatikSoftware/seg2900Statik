@@ -3,27 +3,6 @@ body{
     margin: 0;
 }
 
-#testimonial_1{
-    margin-top: 100px;
-    margin-bottom: 110px;
-    margin-left: 250px;
-    margin-right: 250px;
-}
-
-#testimonial_2{
-    margin-top: 100px;
-    margin-bottom: 110px;
-    margin-left: 250px;
-    margin-right: 250px;
-}
-
-#testimonial_3{
-    margin-top: 100px;
-    margin-bottom: 110px;
-    margin-left: 250px;
-    margin-right: 250px;
-}
-
 #slogan {
     font-size: 64px;
     font-weight: bold;
@@ -40,10 +19,7 @@ body{
     text-align: center;
 }
 
-#paragraph p{
-    margin: 0px;
-}
 
-#testimonial_pictures{
+.testa-img{
     width: 100%;
 }
