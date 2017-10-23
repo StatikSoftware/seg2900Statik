@@ -1,3 +1,42 @@
-#AboutUs {text-align: center}
-div{margin-left:40px;
-         margin-right:40px}
+.top-paragraph {
+    background: #ED6A5E;
+    padding: 5px 10px;
+    color: white;
+}
+
+.top-paragraph h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+main div.picture img {
+    width: 100%;
+}
+
+.team-member-card {
+    background: #ED6A5E;
+    padding: 0px 20px;
+    padding-bottom: 0px;
+    color: white
+}
+
+.team-member-card .content-div {
+    border-left: 1px solid white;
+}
+
+.title-row {
+    margin-bottom: 0px;
+    padding: 3px;
+    border-bottom: 1px solid white;
+}
+
+.team-member-card img.team-contact-icon {
+    margin: 5px;
+}
+
+#page-title {
+    display: inline-block;
+    padding: 10px;
+    background: #ED6A5E;
+    color: white;
+}
