@@ -7,6 +7,14 @@ main .upper-content{
     color: white;
 }
 
+main .page-title{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+    background: #ED6A5E;
+    color: white;
+}
+
 main #form-div {
     background: #ED6A5E;
     padding-bottom: 10px;
