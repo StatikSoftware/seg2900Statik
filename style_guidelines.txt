@@ -1,19 +1,26 @@
-Colors:
-The 
+<<<<<<< HEAD
+The Colors: 
 #FFAF87
 #FF8E72
 #ED6A5E
 #4CE0B3
 #377771
+=======
+Colors:
 
-https://fonts.google.com/specimen/Montserrat+Alternates
+#FFAF87     : "Macaroni"
+#FF8E72     : Peachish
+#ED6A5E     : Pink but more redish
+#4CE0B3     : Bright neon blue green (more blue)
+#377771     : Dark blue green
+>>>>>>> bd641a1e4e261af69f4eec253e2a93af84fe154c
 
 Overall Look and Feel of Simmer:
-
 The overall look and feel of the Simmer website will be flat and mello and colorful. We want the website to be fun and upbeat but not too childish or flashy.
 
 Typography:
 The font we chose for the website is Montserrat Alternates from Google Fonts.
+https://fonts.google.com/specimen/Montserrat+Alternates
 
 Buttons:
 Buttons will be flat, but will stand out and will change colors when hovered over.

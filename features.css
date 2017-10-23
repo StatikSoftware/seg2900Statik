@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#title1{
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px black;
+    color:#4CE0B3;
+}
+
+#title2{
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#columns{
+    margin: 30px 30px 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+#featureTitle{
+    background-color: #377771;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+#descriptions{
+    background-color: #FF8E72;
+    font-weight: bold;
+}
