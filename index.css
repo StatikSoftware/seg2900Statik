@@ -4,18 +4,17 @@ body {
 }
 
 #slogan {
-    font-size: 64px;
-    font-weight: bold;
+    font-size: 70px;
+    font-weight: bolder;
     color: #377771;
     text-align: center;
 }
 
 #paragraph {
     font-size: 23px;
-    background: #ED6A5E;
-    color: white;
+    color: black;
     padding: 5px 10px;
-    font-weight: italic;
+    font-weight: bold;
     text-align: center;
 }
 
