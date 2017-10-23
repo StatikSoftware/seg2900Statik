@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Montserrat Alternates', sans-serif;
     margin: 0;
 }
@@ -19,7 +19,11 @@ body{
     text-align: center;
 }
 
-
-.testa-img{
+.testa-img {
     width: 100%;
+}
+
+.innercontent {
+    background: #ED6A5E;
+    padding: 10px;
 }

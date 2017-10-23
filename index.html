@@ -11,6 +11,7 @@
     <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Compiled and minified CSS -->
+    <script src="jquery.matchHeight.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
     <!-- Compiled and minified JavaScript -->
@@ -71,71 +72,34 @@
                 </div>
                 <div class="row">
                     <div class="col s4">
-                        <img class="testa-img" src="images/jemiah_testimonial 1.jpg " alt="Jemiah 's testimonial">
+                        <div class="innercontent center-align">
+                            <img class="testa-img" src="images/jemiah_testimonial 1.jpg " alt="Jemiah 's testimonial">
+                            <p>"I'm like TOTALLY obssessed with this app. "</p>
+                            <p>"chef 's scale"</p>
+                        </div>
                     </div>
                     <div class="col s4">
-                        <img class="testa-img" src="images/john_testimonial 2.jpg" alt="John's testimonial ">
+                        <div class="innercontent center-align">
+                            <img class="testa-img" src="images/john_testimonial 2.jpg" alt="John's testimonial ">
+                            <p>"This app is an amazing cooking tool! FRIENDSHIP! "</p>
+                            <p>"chef 's scale"</p>
+                        </div>
                     </div>
                     <div class="col s4">
-                        <img class="testa-img" src="images/jerimiah_ testimonial 3.jpg" alt="Jerimiah's testimonial ">
+                        <div class="innercontent center-align">
+                            <img class="testa-img" src="images/jerimiah_ testimonial 3.jpg" alt="Jerimiah's testimonial ">
+                            <p>
+                                "According to my calculations, this application will increase your coolness factor by 99.5% "
+                            </p>
+                            <p>
+                                "Chef's scale"
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="container">
-
-
-                <div class="col s4">
-                    <div class="testimonial-container" id="testimonial_1 ">
-                        <ul>
-                            <div id=" testimonial_pictures">
-                                <li>
-                                    <img src="images/jemiah_testimonial 1.jpg " alt="Jemiah 's testimonial">
-                            </div>
-                            </li>
-                            <div id=" paragraph">
-                                <li>"I'm like TOTALLY obssessed with this app. "</li>
-                                <li>"chef 's scale"</li>
-                            </div>
-                        </ul>
-                    </div>
+                <div class="header" id="referrals">
+                    <h2>Get extra points for referrals!</h2>
                 </div>
-                <div class="col s4">
-                    <div class="testimonial-container" id="testimonial_2">
-                        <ul>
-                            <li>
-                                <div id=" testimonial_pictures">
-
-                                </div>
-                            </li>
-                            <div id=" paragraph">
-                                <li>"This app is an amazing cooking tool! FRIENDSHIP! "</li>
-                                <li>"chef 's scale"</li>
-                            </div>
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="testimonial-container" id="testimonial_3">
-                        <ul>
-                            <li>
-                                <div id=" testimonial_pictures">
-
-                                </div>
-                            </li>
-                            <div id=" paragraph">
-                                <li>"According to my calculations, this application will increase your coolness factor by 99.5%
-                                    "
-                                </li>"
-                                <li>"Chef's scale"</li>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="header" id="referrals">
-                <h2>Get extra points for referrals!</h2>
             </div>
     </main>
     <footer class="page-footer">
@@ -190,6 +154,9 @@
     </footer>
     <script>
         $(document).ready(function () {
+            $(".innercontent").matchHeight({
+                byRow: false
+            });
             $('.parallax-container').css('height', ($(window).height() - 64) + 'px')
             console.log(screen.height);
             $('.parallax').parallax();
