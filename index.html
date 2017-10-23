@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -44,7 +45,13 @@
         </div>
     </nav>
     <main>
+        <div class="parallax-container valign-wrapper">
+            <div class="container">
+                <div class="header" id="slogan">
+                    <h1>Making Cooking Fun For Millennials!</h1>
+                </div>
 
+<<<<<<< HEAD
         <div class="header" id="slogan">
             <h1>Making Cooking Fun For Millennials!</h1>
         </div>
@@ -58,12 +65,25 @@
         <div class="parallax-container">
             
             <img src="./images/modern-kitchen.jpg">
+=======
+                <div id="paragraph">
+                    <p>
+                        The goal of this app if to make cooking easy and fun for younger audiences. This is done through step
+                        by step tutorials and gamification. The app will include rewards, satisfying audio and visual aspects,
+                        and social media features to keep users exited about cooking.
+                    </p>
+                </div>
+            </div>
+            <div class="parallax">
+                <img src="./images/modern-kitchen.jpg">
+            </div>
+>>>>>>> 4c1088a6cca12ebe05579a2445f32d20951a9cc2
         </div>
 
         <div class="header" id="testimonials">
 
             <h2>Testimonials</h2>
-            <div class= “container”>
+            <div class=“ container”>
 
                 <div class = "col s4">
                     <div class="testimonial-container" id="testimonial_1 ">
@@ -166,6 +186,13 @@
             </div>
         </div>
     </footer>
+    <script>
+        $(document).ready(function () {
+            $('.parallax-container').css('height', ($(window).height() - 64) + 'px')
+            console.log(screen.height);
+            $('.parallax').parallax();
+        });
+    </script>
 </body>
 
 </html>
