@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-.table_testimonials{
+.row{
     width: 100%;
     background-color: #ff8e72;
     text-align: center;
@@ -42,4 +42,8 @@ body{
     font-size: 23px;
     font-weight: italic;
     text-align: center;
+}
+
+#testimonial_pictures{
+    width: 100%;
 }
