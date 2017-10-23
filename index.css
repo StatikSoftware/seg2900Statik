@@ -1,0 +1,45 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+}
+
+.table_testimonials{
+    width: 100%;
+    background-color: #ff8e72;
+    text-align: center;
+    height: 850px;
+}
+
+#testimonial_1{
+    margin-top: 100px;
+    margin-bottom: 110px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#testimonial_2{
+    margin-top: 100px;
+    margin-bottom: 110px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#testimonial_3{
+    margin-top: 100px;
+    margin-bottom: 110px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#slogan {
+    font-size: 64px;
+    font-weight: bold;
+    color: #377771;
+    text-align: center;
+}
+
+#paragraph {
+    font-size: 23px;
+    font-weight: italic;
+    text-align: center;
+}
