@@ -52,7 +52,7 @@
                     <h1>Making Cooking Fun For Millennials!</h1>
                 </div>
 
-                <div class = "paragraph" id = "paragraph">
+                <div class="paragraph" id="paragraph">
                     <p>
                         The goal of this app if to make cooking easy and fun for younger audiences. This is done through step by step tutorials and
                         gamification. The app will include rewards, satisfying audio and visual aspects, and social media
@@ -71,40 +71,42 @@
                     <h2>Testimonials</h2>
                 </div>
                 <div class="row">
-                    <div class="col s4">
-                        
-                            <img class="testa-img" src="images/jemiah_testimonial 1.jpg " alt="Jemiah 's testimonial">
-                            <p>"I'm like TOTALLY obssessed with this app. "</p>
-                            <p>"chef 's scale"</p>
-                        
+                    <div class="col s4 testimonial">
+
+                        <img class="testa-img" src="images/jemiah_testimonial 1.jpg " alt="Jemiah 's testimonial">
+                        <p>"I'm like TOTALLY obssessed with this app. "</p>
+                        <p>"chef 's scale"</p>
+
                     </div>
-                    <div class="col s4">
-                        
-                            <img class="testa-img" src="images/john_testimonial 2.jpg" alt="John's testimonial ">
-                            <p>"This app is an amazing cooking tool! FRIENDSHIP! "</p>
-                            <p>"chef 's scale"</p>
-                        
+                    <div class="col s4 testimonial">
+
+                        <img class="testa-img" src="images/john_testimonial 2.jpg" alt="John's testimonial ">
+                        <p>"This app is an amazing cooking tool! FRIENDSHIP! "</p>
+                        <p>"chef 's scale"</p>
+
                     </div>
-                    <div class="col s4">
-                        
-                            <img class="testa-img" src="images/jerimiah_ testimonial 3.jpg" alt="Jerimiah's testimonial ">
-                            <p>According to my calculations, this application will increase your coolness factor by 99.5%</p>
-                            <p>Chef's scale</p>
-                        
+                    <div class="col s4 testimonial">
+
+                        <img class="testa-img" src="images/jerimiah_ testimonial 3.jpg" alt="Jerimiah's testimonial ">
+                        <p>According to my calculations, this application will increase your coolness factor by 99.5%</p>
+                        <p>Chef's scale</p>
+
                     </div>
                 </div>
             </div>
-
-        <div class ="parallax-container">
-                <div class="parallax">
-                        <img src="./images/pricing-background.jpg">
-                </div>
-            <div class="innercontent center-align">
-
-                <div class="header" id="referrals">
-                    <h2>Get extra points for referrals!</h2>
+        </div>
+        <div class="parallax-container valign-wrapper">
+            <div class="parallax">
+                <img src="./images/pricing-background.jpg">
+            </div>
+            <div class="container">
+                <div class="center-align">
+                    <div class="header" id="referrals">
+                        <h2>Get extra points for referrals!</h2>
+                    </div>
                 </div>
             </div>
+        </div>
     </main>
     <footer class="page-footer">
         <div class="container">
@@ -158,7 +160,7 @@
     </footer>
     <script>
         $(document).ready(function () {
-            $(".innercontent").matchHeight({
+            $(".testimonial").matchHeight({
                 byRow: false
             });
             $('.parallax-container').css('height', ($(window).height() - 64) + 'px')
