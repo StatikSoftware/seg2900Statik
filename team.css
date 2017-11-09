@@ -1,3 +1,8 @@
+.skills_list{
+    list-style-type: square;
+    text-align: left
+}
+
 .top-paragraph {
     background: #ED6A5E;
     padding: 5px 10px;
