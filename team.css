@@ -1,5 +1,11 @@
+.picture{
+    margin: 5000px
+    height: 75%;
+    width: 75%
+}
+
 .skills_list{
-    list-style-type: square;
+    margin-bottom: 5px;
     text-align: left
 }
 
