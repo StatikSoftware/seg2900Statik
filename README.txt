@@ -10,6 +10,7 @@ Team Members:
 
 
 Product idea: Fun cooking app
+Product name: Simr
 
 Product description:
 	The goal of this app if to make cooking easy and fun for younger audiences. This is done through step by step tutorials and gamification. The app will include rewards, satisfying audio and visual aspects, and social media features to keep users exited about cooking.
