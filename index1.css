@@ -404,7 +404,7 @@ nav ul li:hover {
 }
 
 #container1-team{
-	width: 1200px;
+	width: 1280px;
 	align-self: center; 
 	height: 360px;
 	margin: 0;
@@ -460,10 +460,13 @@ nav ul li:hover {
 	top: 40%;
 	bottom: 40%;
 	left: 35%;
+	align-self: center;
+	block-size: fit-content;
 
 }
 
 #container3-team{
+	
 	width: 100%;
 	height: 1820px;
 	margin: 0;
