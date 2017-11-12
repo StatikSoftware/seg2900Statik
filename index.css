@@ -3,11 +3,18 @@ body {
     margin: 0;
 }
 
-#slogan {
-    font-size: 70px;
-    font-weight: bolder;
+.grayContainerBackground{
+    background: rgba(23, 61, 80, 0.06);
+}
+
+.title-header {
     color: #377771;
     text-align: center;
+}
+
+.title-header h1{
+    font-size: 75px;
+    font-weight: bold;
 }
 
 #referrals{

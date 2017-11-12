@@ -4,13 +4,12 @@
 }
 
 .top-paragraph {
-    background: #ED6A5E;
+    background: white;
     padding: 5px 10px;
-    color: white;
 }
 
 .top-paragraph h3 {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     padding-bottom: 3px;
 }
 
@@ -19,20 +18,19 @@ main div.picture img {
 }
 
 .team-member-card {
-    background: #ED6A5E;
+    background: white;
     padding: 0px 20px;
     padding-bottom: 0px;
-    color: white
 }
 
 .team-member-card .content-div {
-    border-left: 1px solid white;
+    border-left: 1px solid black;
 }
 
 .title-row {
     margin-bottom: 0px;
     padding: 3px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 .team-member-card img.team-contact-icon {
@@ -42,6 +40,5 @@ main div.picture img {
 #page-title {
     display: inline-block;
     padding: 10px;
-    background: #ED6A5E;
-    color: white;
+    background: white;
 }
