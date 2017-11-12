@@ -3,8 +3,68 @@ body {
     margin: 0;
 }
 
-.grayContainerBackground{
+main{
     background: rgba(23, 61, 80, 0.06);
+}
+
+#container1-home{
+	width: 100%;
+	height: 900px;
+	background-image: url(images/pricing-background.jpg);
+	margin-bottom: 0;
+}
+
+#paragraph1-home{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 75px;
+	font-weight: bold;
+	color: #377771;
+
+}
+
+#container-testimonials-home{
+	width: 100%;
+	height: 490px;
+	margin:0;
+	background-color: #FFFEFB;
+}
+
+#testimonials-home{
+	text-align: center;
+	margin:0;
+	border:none;
+	padding: 20px;
+	padding-bottom: 0;
+}
+
+#testimonials-home p {
+	margin: 0;
+	font-size: 50px;
+}
+#p-container-home{
+	text-align: center;
+	position: relative;
+	top: 43%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.box-home{
+	display: inline-block;
+	width: 20%;
+	vertical-align: middle;
+}
+
+
+.box-home img{
+	width: 227;
+	height: 210px;
+	border:solid;
+	border-width: .1px;
+	border-radius: 150px;
 }
 
 .title-header {

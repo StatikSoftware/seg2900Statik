@@ -149,3 +149,80 @@ body {
     border-color: #FF8E72;
     border-width: 2px;
 }
+
+#container-pricing{
+	width: 100%;
+	height: 700px;
+}
+
+#container-box-pricing{
+	position: relative;
+	top: 50%;
+	text-align: center;
+
+}
+
+.pricing{
+	display: inline-block;
+	border: solid black;
+	border-width: 1px;
+	width: 35%;
+	height: 450px;
+	border-radius: 5px;
+	background-color: white;
+	transition: width .5s ease-out, height .5s ease-out;
+	vertical-align: middle; 
+	position: relative;
+}
+
+.pricing:hover{
+	height: 457px;
+	width: 35.5%;
+}
+
+#pricing1{
+	margin: 5% 0 5% 2.5%;
+}
+
+#pricing2{
+	margin: 5% 5% 5% 0;
+}
+
+.top-container-pricing h3, .pricing-container-pricing p{
+	text-align: center;
+}
+
+.top-container-pricing h3{
+	font-size: 200%;
+}
+
+.top-container-pricing p {
+	margin: 0;
+}
+
+.top-container-pricing p:after{
+	content: '/month';
+	color: grey;
+	font-size: 12px;
+}
+
+.features-list-container-pricing ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.features-list-container-pricing ul li{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.features-list-container-pricing ul li:nth-of-type(2n+1){
+	background-color: rgba(23, 61, 80, 0.06);
+}
+
+.bottom-container-pricing{
+	text-align: center;
+	position: relative;
+	top: 5%;
+}

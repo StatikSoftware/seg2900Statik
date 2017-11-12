@@ -20,11 +20,7 @@
 }
 
 #featureTitle{
-    background-color: #377771;
-    color: white;
-    border-color: white;
-    border-style: solid;
-    border-width: 5px;
+    background-color: white;
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -36,8 +32,20 @@
     overflow: auto;
     
 }
+
+.feature-card div{
+    padding: 10px;
+}
+
+#third {
+    margin: 20px 0px;
+}
+
 .card img {
     max-width: 4000px;
+}
+.card img.appExample{
+    width: 100%;
 }
 .card img.materialized.active {
     max-width: none;
