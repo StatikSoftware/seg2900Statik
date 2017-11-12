@@ -1,6 +1,9 @@
 body{
 	margin: 0;
 	font-family: 'Montserrat Alternates', sans-serif;
+	width: 1275px;
+	margin-right: 0;
+	margin-left: 0;
 }
 nav {
 	background-color: #ED6A5E;
@@ -8,7 +11,8 @@ nav {
 	padding-bottom: 5px; 
 	padding:5px;
 	margin: 0;
-	width: 100%;
+	margin-left: 0;
+	width: 1275px;
 	position: fixed;
 	transition: all 250ms linear;
 	display: block;
@@ -400,7 +404,8 @@ nav ul li:hover {
 }
 
 #container1-team{
-	width: 100%;
+	width: 1200px;
+	align-self: center; 
 	height: 360px;
 	margin: 0;
 	background-color: rgba(23, 61, 80, 0.06);
@@ -469,15 +474,16 @@ nav ul li:hover {
 	position: relative;
 	top: 5%;
 	left: 0%;
+	bottom: 5%;
 	transform: translate(-50%, 1%)
-	width: 1000px;
+	width: 100px;
 	border-radius: 2px;
 }
 
 .team-members{
 	display: block;
-	margin: 40px 40px;
-	padding: 10px 0px;
+	margin: 50px 50px;
+	padding: 10px 10px;
 	background-color: white;
 }
 
