@@ -4,8 +4,7 @@ body {
 }
 
 main{
-	background: rgba(23, 61, 80, 0.06);
-	padding-bottom: 0;
+    background: rgba(23, 61, 80, 0.06);
 }
 
 footer .contact-button{
