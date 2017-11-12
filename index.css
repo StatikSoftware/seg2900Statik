@@ -90,7 +90,12 @@ nav #LogoNav img{
 
 .title-header {
     color: #377771;
-    text-align: center;
+	text-align: center;
+    text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
 }
 
 .title-header h1{
