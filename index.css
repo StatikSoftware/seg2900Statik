@@ -91,12 +91,14 @@ nav #LogoNav img{
 .title-header {
     color: #377771;
 	text-align: center;
-    text-shadow:
-    -1px -1px 0 rgba(255, 255, 255, 0.7),
-    1px -1px 0 rgb(255, 255, 255, 0.7),
-    -1px 1px 0 rgb(255, 255, 255, 0.7),
-    1px 1px 0 rgb(255, 255, 255, 0.7);
+	text-shadow:
+	-1px -1px rgba(255, 255, 255, 0.4),
+	-1px 1px rgba(255, 255, 255, 0.4),
+	1px -1px rgba(255, 255, 255, 0.4),
+	1px 1px rgba(255, 255, 255, 0.4);
+	
 }
+
 
 .title-header h1{
     font-size: 75px;
